@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Lấy bản đồ đường ở Hà Nội
 center_point = (21.00538744581636, 105.834666695635)
 print("Đang tải bản đồ...")
-G = ox.graph_from_point(center_point, dist=6000, network_type="drive")
+G = ox.graph_from_point(center_point, dist=3000, network_type="drive")
 print("Tải xong.")
 
 # Tọa độ 2 điểm (lat, lon)
